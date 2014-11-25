@@ -6,9 +6,8 @@ package com.enspyr.api.client;
 
 import java.io.Serializable;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
+import com.googlecode.objectify.annotation.Entity;
+import com.googlecode.objectify.annotation.Id;
 import com.google.appengine.api.datastore.GeoPt;
 
 

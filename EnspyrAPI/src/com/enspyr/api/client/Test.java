@@ -13,5 +13,5 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 @RemoteServiceRelativePath("test")
 public interface Test extends RemoteService
 {
-        MyEntity blah(MyEntity other);
+	MyEntity blah(MyEntity other);
 }
